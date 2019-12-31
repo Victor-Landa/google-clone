@@ -12,6 +12,11 @@ body {
 	padding: 0;
 }
 
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
 header {
 	height: 60px;
 	width: 100%;
@@ -20,4 +25,18 @@ header {
 header nav {
 	display: flex;
 	justify-content: flex-end;
+}
+
+header nav .nav-right-section {
+	align-items: center;
+	display: flex;
+	height: auto;
+	justify-content: center;
+	list-style: none;
+	width: 250px;
+}
+
+nav .nav-right-section a {
+	color: #000000;
+	margin-right: 10px;
 }
