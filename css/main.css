@@ -91,3 +91,27 @@ main .main-input input {
 	outline: none;
 	width: 450px;
 }
+
+main .main-input-container:hover {
+	box-shadow: 0 1px 6px 0 #20212447;
+	border-color: #dfe1e500;
+}
+
+main .main-input .search-icon {
+	background-image: url('https://i.ibb.co/xfLSB6q/google-search-icon.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 18px;
+	width: 18px;
+}
+
+main .main-input .micro-icon {
+	background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/22/Google_microphone_logo.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	cursor: pointer;
+	height: 18px;
+	width: 18px;
+}
